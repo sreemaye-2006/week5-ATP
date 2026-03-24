@@ -1,0 +1,58 @@
+table {
+  border-collapse: collapse;
+  margin: 20px;
+  width: 600px;
+  text-align: center;
+
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+/* First table */
+.table1 {
+  border: 1px solid black;
+}
+
+
+
+/* Second table */
+.table2 {
+  border: 1px solid black;
+}
+
+.table2 th {
+  text-align: left;
+}
+
+.table2 td:first-child {
+  text-align: left;
+}
+.table3 {
+  border: none;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.table3 thead {
+  background: #2f7f83;
+  color: white;
+}
+
+.table3 th {
+  border: none;
+  padding: 12px;
+}
+
+.table3 td {
+  border: none;
+  padding: 12px;
+}
+
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
